@@ -8,7 +8,10 @@ angular.
 
       $routeProvider.
         when('/phones', {
-          template: '<phone-list></phone-list>'
+          templateUrl: 'login/login.view.html'
+        }).
+        when('/register', {
+          templateUrl: 'register/register.view.html'
         }).
         when('/phones/:phoneId', {
           template: '<phone-detail></phone-detail>'
